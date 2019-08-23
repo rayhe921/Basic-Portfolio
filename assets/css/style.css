@@ -28,6 +28,7 @@ Header {
     border-bottom-width: 2px;   
     border-bottom-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    z-index: 1;
 }
 
 .centertext{
@@ -43,12 +44,6 @@ Header {
     background-color: #4aaaa5;
     color: #ffffff;
 }
-h1 {
-    color: #777;
-    background: #ebebeb;
-    margin: 2%;
-    text-align: center;
-}
 
 .link {
     position: relative;
@@ -56,6 +51,14 @@ h1 {
     background: #ffffff;
     padding: 20px;
     text-decoration: none;
+    }
+
+a:hover{
+    color: crimson;
+}
+
+a:active{
+    background-color: rgb(144, 221, 204);
 }
 
 #content {
@@ -63,6 +66,8 @@ h1 {
     margin: auto;
     top: 70px;
     width: 960px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 
@@ -70,7 +75,16 @@ section {
     height: 20%; 
     padding: 2%;
     background: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
 } 
+
+#picture{
+    float: left;
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+}
 
 .clearfix::after {
     content: " ";
@@ -79,7 +93,7 @@ section {
   }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0%;
     left: 0%;
     right: 0%;
@@ -88,4 +102,83 @@ footer {
     border-top-style: solid;
     border-top-width: 4px;
     border-top-color: #4aaaa5;
+    clear: both;
+}
+
+
+/* Contact */
+
+#button{
+    background-color: #777777;
+    font-size: 15px;
+    padding: 8px;
+    width: 100px;
+    color: #ffffff;
+}
+
+/* Portfolio */
+
+.btncontainer{
+    position: relative;
+}
+
+.button1{
+    position: absolute;
+    margin-bottom: 5%;
+    margin-right: 30px;
+}
+
+.button2{
+    position: relative;
+    left: 250px;
+    margin-bottom: 5%;
+    margin-right: 30px;
+}
+
+.button3{
+    position: absolute;
+    margin-bottom: 5%;
+    margin-right: 30px;
+}
+.button4{
+    position: relative;
+    top: 0%;
+    left: 250px;
+    margin-bottom: 5%;
+    margin-right: 30px;
+}
+.button5{
+    position: relative;
+    margin-bottom: 5%;
+    margin-right: 30px;
+}
+
+.textblock1{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    background-color: #777777;
+    color:#ffffff;
+    width: 200px;
+    opacity: 0.9; 
+}
+
+.textblock2{
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    background-color: #777777;
+    color:#ffffff;
+    width: 200px;
+    opacity: 0.9; 
+}
+
+.textblock3{
+    position: absolute;
+    top: 520px;
+    text-align: center;
+    background-color: #777777;
+    color:#ffffff;
+    width: 200px;
+    opacity: 0.9; 
 }
