@@ -52,6 +52,10 @@ Header {
     padding: 20px;
     text-decoration: none;
     }
+    
+#linkb{
+
+}
 
 a:hover{
     color: crimson;
@@ -93,7 +97,8 @@ section {
   }
 
 footer {
-    position: relative;
+    position: fixed
+    ;
     bottom: 0%;
     left: 0%;
     right: 0%;
@@ -102,7 +107,6 @@ footer {
     border-top-style: solid;
     border-top-width: 4px;
     border-top-color: #4aaaa5;
-    clear: both;
 }
 
 
@@ -140,6 +144,7 @@ footer {
     margin-bottom: 5%;
     margin-right: 30px;
 }
+
 .button4{
     position: relative;
     top: 0%;
@@ -147,6 +152,7 @@ footer {
     margin-bottom: 5%;
     margin-right: 30px;
 }
+
 .button5{
     position: relative;
     margin-bottom: 5%;
@@ -155,7 +161,7 @@ footer {
 
 .textblock1{
     position: absolute;
-    top: 120px;
+    top: 138px;
     text-align: center;
     background-color: #777777;
     color:#ffffff;
@@ -165,7 +171,7 @@ footer {
 
 .textblock2{
     position: absolute;
-    top: 320px;
+    top: -70px;
     text-align: center;
     background-color: #777777;
     color:#ffffff;
@@ -175,8 +181,28 @@ footer {
 
 .textblock3{
     position: absolute;
-    top: 520px;
     text-align: center;
+    top: 138px;
+    background-color: #777777;
+    color:#ffffff;
+    width: 200px;
+    opacity: 0.9; 
+}
+
+.textblock4{
+    position: absolute;
+    text-align: center;
+    top: -70px;
+    background-color: #777777;
+    color:#ffffff;
+    width: 200px;
+    opacity: 0.9; 
+}
+
+.textblock5{
+    position: absolute;
+    text-align: center;
+    top: -70px;
     background-color: #777777;
     color:#ffffff;
     width: 200px;
